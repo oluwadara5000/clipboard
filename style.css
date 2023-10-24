@@ -117,6 +117,7 @@ section{
 .third-div{
   display: flex;
   gap: 110px;
+  margin-bottom: 160px;
 }
 
 .third-div div:nth-child(1){
@@ -149,3 +150,189 @@ color: hsl(201, 11%, 66%);
 line-height: 30px;
 margin-bottom: 60px;
 }
+
+.fourth-div{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 110px;
+}
+
+.fourth-div div:nth-child(1) h1{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.fourth-div div:nth-child(1) p{
+  width: 670px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.fifth-div{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  margin-bottom: 100px;
+}
+
+.fifth-div > div:nth-child(1) h1{
+font-size: 35px;
+margin-bottom: 20px;
+}
+
+.fifth-div > div:nth-child(1) p{
+font-size: 18px;
+}
+
+.fifth-div > div:nth-child(2){
+  width: 1100px;
+  margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+.fifth-div > div:nth-child(2) div{
+width: 350px;
+}
+
+.fifth-div > div:nth-child(2) div img{
+margin-bottom: 50px;
+}
+
+.fifth-div > div:nth-child(2) div:nth-child(1) img{
+margin-bottom: 40px;
+}
+
+.fifth-div > div:nth-child(2) div h1{
+margin-bottom: 20px;
+}
+
+.fifth-div > div:nth-child(2) div p{
+line-height: 28px;
+}
+
+.sixth-div {
+  display: flex;
+  align-items: center;
+  /* height: 100vh; */
+  /* width: 100vw; */
+  overflow: hidden;
+}
+
+.scroll-parent {
+  position: relative;
+  width: 100%;
+  height: 30px;
+  padding: 45px 0;
+  overflow-x: hidden;
+  /* background-color: red; */
+  align-items: center;
+}
+
+.scroll-element {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+
+.scroll-element img {
+  width: 10%;
+}
+
+.primary {
+  animation: primary 20s linear infinite;
+}
+
+.secondary {
+  animation: secondary 20s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+.seventh-div{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.seventh-div h1{
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.seventh-div p{
+  width: 680px;
+  margin: auto;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 50px;
+}
+
+.seventh-div-buttons{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+
+footer{
+  background-color: #F5F6F8;
+  padding: 45px 165px;
+  display: flex;
+}
+
+footer div:nth-child(1) img{
+  width: 60px;
+  height: 60px;
+  margin-right: 135px;
+}
+
+footer div:nth-child(2){
+  display: flex;
+  gap: 80px;
+  margin-right: 315px;
+}
+
+footer div:nth-child(2) ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+footer div:nth-child(2) ul li{
+  list-style-type: none;
+  font-size: 18px;
+  color: hsl(210, 3%, 35%)
+}
+
+footer div:nth-child(3){
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
