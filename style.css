@@ -1,27 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;300;400;500;600;700&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-font-family: 'Bai Jamjuree', sans-serif;
-cursor: pointer;
+  font-family: "Bai Jamjuree", sans-serif;
+  cursor: pointer;
 }
 
-html, body{
+html,
+body {
   background-color: #000000;
 }
 
-h1{
+h1 {
   color: hsl(210, 10%, 33%);
 }
 
-p{
+p {
   color: hsl(201, 11%, 66%);
 }
 
-section{
+section {
   width: 1440px;
   margin: auto;
   background-color: #ffffff;
@@ -29,49 +30,49 @@ section{
   overflow: hidden;
 }
 
-.background-mobile{
+.background-mobile {
   display: none;
 }
 
-.background-desktop{
+.background-desktop {
   position: absolute;
 }
 
-.first-div{
+.first-div {
   padding-top: 130px;
   text-align: center;
 }
 
-.logo{
+.logo {
   margin-bottom: 70px;
 }
 
-.first-div-writeup{
+.first-div-writeup {
   width: 690px;
   margin: auto;
 }
 
-.first-div-writeup h1{
+.first-div-writeup h1 {
   color: hsl(210, 10%, 33%);
   font-size: 43px;
   margin-bottom: 15px;
 }
 
-.first-div-writeup p{
+.first-div-writeup p {
   color: hsl(201, 11%, 66%);
   font-size: 20px;
   line-height: 28px;
   margin-bottom: 50px;
 }
 
-.first-div-buttons{
+.first-div-buttons {
   display: flex;
   justify-content: center;
   gap: 15px;
   margin-bottom: 160px;
 }
 
-.ios{
+.ios {
   background-color: hsl(171, 66%, 44%);
   border: none;
   border-radius: 50px;
@@ -83,30 +84,30 @@ section{
   border-bottom: 3px solid hsl(171, 59%, 33%);
 }
 
-.mac{
-   background-color: hsl(233, 100%, 69%);
-   border: none;
-   border-radius: 50px;
-   padding: 17px 40px;
-   color: #ffffff;
-   font-size: 16px;
-   font-weight: bold;
-   letter-spacing: 1px;
-   border-bottom: 3px solid hsl(233, 56%, 42%);
+.mac {
+  background-color: hsl(233, 100%, 69%);
+  border: none;
+  border-radius: 50px;
+  padding: 17px 40px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-bottom: 3px solid hsl(233, 56%, 42%);
 }
 
-.second-div{
+.second-div {
   text-align: center;
 }
 
-.second-div h1{
+.second-div h1 {
   width: 450px;
   font-size: 33px;
   margin: auto;
   margin-bottom: 20px;
 }
 
-.second-div p{
+.second-div p {
   width: 680px;
   margin: auto;
   font-size: 17px;
@@ -114,56 +115,56 @@ section{
   margin-bottom: 85px;
 }
 
-.third-div{
+.third-div {
   display: flex;
   gap: 110px;
   margin-bottom: 160px;
 }
 
-.third-div div:nth-child(1){
+.third-div div:nth-child(1) {
   margin-left: -30px;
 }
 
-.third-div div:nth-child(2){
+.third-div div:nth-child(2) {
   padding-top: 75px;
   width: 335px;
 }
 
-.third-div ul{
+.third-div ul {
   display: flex;
   flex-direction: column;
 }
 
-.third-div ul > li{
+.third-div ul > li {
   list-style-type: none;
 }
 
-.third-div ul > li:nth-child(odd){
+.third-div ul > li:nth-child(odd) {
   color: hsl(210, 10%, 33%);
   font-weight: bold;
   font-size: 22px;
   margin-bottom: 10px;
 }
 
-.third-div ul > li:nth-child(even){
-color: hsl(201, 11%, 66%);
-line-height: 30px;
-margin-bottom: 60px;
+.third-div ul > li:nth-child(even) {
+  color: hsl(201, 11%, 66%);
+  line-height: 30px;
+  margin-bottom: 60px;
 }
 
-.fourth-div{
+.fourth-div {
   display: flex;
   flex-direction: column;
   text-align: center;
   gap: 110px;
 }
 
-.fourth-div div:nth-child(1) h1{
+.fourth-div div:nth-child(1) h1 {
   font-size: 35px;
   margin-bottom: 20px;
 }
 
-.fourth-div div:nth-child(1) p{
+.fourth-div div:nth-child(1) p {
   width: 670px;
   margin: auto;
   font-size: 18px;
@@ -171,7 +172,7 @@ margin-bottom: 60px;
   margin-bottom: 20px;
 }
 
-.fifth-div{
+.fifth-div {
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -179,40 +180,40 @@ margin-bottom: 60px;
   margin-bottom: 100px;
 }
 
-.fifth-div > div:nth-child(1) h1{
-font-size: 35px;
-margin-bottom: 20px;
+.fifth-div > div:nth-child(1) h1 {
+  font-size: 35px;
+  margin-bottom: 20px;
 }
 
-.fifth-div > div:nth-child(1) p{
-font-size: 18px;
+.fifth-div > div:nth-child(1) p {
+  font-size: 18px;
 }
 
-.fifth-div > div:nth-child(2){
+.fifth-div > div:nth-child(2) {
   width: 1100px;
   margin: auto;
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
-.fifth-div > div:nth-child(2) div{
-width: 350px;
+.fifth-div > div:nth-child(2) div {
+  width: 350px;
 }
 
-.fifth-div > div:nth-child(2) div img{
-margin-bottom: 50px;
+.fifth-div > div:nth-child(2) div img {
+  margin-bottom: 50px;
 }
 
-.fifth-div > div:nth-child(2) div:nth-child(1) img{
-margin-bottom: 40px;
+.fifth-div > div:nth-child(2) div:nth-child(1) img {
+  margin-bottom: 40px;
 }
 
-.fifth-div > div:nth-child(2) div h1{
-margin-bottom: 20px;
+.fifth-div > div:nth-child(2) div h1 {
+  margin-bottom: 20px;
 }
 
-.fifth-div > div:nth-child(2) div p{
-line-height: 28px;
+.fifth-div > div:nth-child(2) div p {
+  line-height: 28px;
 }
 
 .sixth-div {
@@ -275,17 +276,17 @@ line-height: 28px;
   }
 }
 
-.seventh-div{
+.seventh-div {
   margin-top: 100px;
   text-align: center;
 }
 
-.seventh-div h1{
+.seventh-div h1 {
   font-size: 35px;
   margin-bottom: 20px;
 }
 
-.seventh-div p{
+.seventh-div p {
   width: 680px;
   margin: auto;
   font-size: 18px;
@@ -293,46 +294,239 @@ line-height: 28px;
   margin-bottom: 50px;
 }
 
-.seventh-div-buttons{
+.seventh-div-buttons {
   display: flex;
   gap: 20px;
   justify-content: center;
   margin-bottom: 150px;
 }
 
-footer{
-  background-color: #F5F6F8;
+footer {
+  background-color: #f5f6f8;
   padding: 45px 165px;
   display: flex;
 }
 
-footer div:nth-child(1) img{
+footer div:nth-child(1) img {
   width: 60px;
   height: 60px;
   margin-right: 135px;
 }
 
-footer div:nth-child(2){
+footer div:nth-child(2) {
   display: flex;
   gap: 80px;
   margin-right: 315px;
 }
 
-footer div:nth-child(2) ul{
+footer div:nth-child(2) ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-footer div:nth-child(2) ul li{
+footer div:nth-child(2) ul li {
   list-style-type: none;
   font-size: 18px;
-  color: hsl(210, 3%, 35%)
+  color: hsl(210, 3%, 35%);
 }
 
-footer div:nth-child(3){
+footer div:nth-child(3) {
   display: flex;
   gap: 25px;
   align-items: center;
 }
 
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/* MEDIA QUERIES */
+/* FOR SCREENS 374px and BELOW */
+@media screen and (max-width: 374px) {
+  section {
+    width: 100%;
+    margin: auto;
+  }
+
+  .background-mobile {
+    display: block;
+    position: absolute;
+  }
+
+  .background-desktop {
+    display: none;
+  }
+
+  .first-div-writeup {
+    width: 310px;
+  }
+
+  .first-div-writeup h1 {
+    font-size: 30px;
+  }
+
+  .first-div-writeup p {
+    font-size: 16px;
+  }
+
+  .first-div-buttons {
+    flex-direction: column;
+    width: 310px;
+    margin: auto;
+    gap: 25px;
+    margin-bottom: 160px;
+  }
+
+  .second-div{
+    width: 100%;
+  }
+
+  .second-div h1 {
+  width: 235px;
+  font-size: 26px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.second-div p {
+  width: 300px;
+  font-size: 16px;
+}
+
+.third-div {
+  width: 100%;
+  flex-direction: column;
+  gap: 60px;
+  margin-bottom: 160px;
+  padding: 0 30px;
+}
+
+.third-div div:nth-child(1) {
+  margin: 0;
+  width: 100%;
+}
+
+.third-div div:nth-child(1) img{
+  margin: 0;
+  width: 100%;
+}
+
+.third-div div:nth-child(2) {
+  padding: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.fourth-div{
+  gap: 65px;
+  width: 100%;
+  margin-bottom: 135px;
+}
+
+.fourth-div div:nth-child(1) h1 {
+  font-size: 28px;
+}
+
+.fourth-div div:nth-child(1) p {
+  width: 100%;
+  font-size: 16px;
+  padding: 0 30px;
+}
+
+.fourth-div div:nth-child(2){
+  width: 100%;
+  padding: 0 15px;
+}
+
+.fourth-div div:nth-child(2) img{
+  width: 100%;
+}
+
+.fifth-div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+  margin-bottom: 100px;
+}
+
+.fifth-div > div:nth-child(1) h1 {
+  font-size: 28px;
+  padding: 0 30px;
+}
+
+.fifth-div > div:nth-child(1) p {
+  font-size: 16px;
+  padding: 0 30px;
+}
+
+.fifth-div > div:nth-child(2) {
+  width: 100%;
+  flex-direction: column;
+  padding: 0 30px;
+  gap: 60px;
+}
+
+.fifth-div > div:nth-child(2) div {
+  width: 100%;
+}
+
+.fifth-div > div:nth-child(2) div img {
+  margin-bottom: 30px;
+}
+
+.scroll-parent{
+  height: 200px;
+}
+
+.scroll-element img {
+  width: 30%;
+}
+
+.scroll-element{
+  flex-direction: column;
+  padding: 0;
+  height: 100%;
+}
+
+.primary{
+  display: none;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 0%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 0%;
+  }
+}
+}
